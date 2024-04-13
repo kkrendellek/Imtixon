@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    animation: anime 7s infinite;
+    position: relative;
+}
+@keyframes anime{
+    0%,100%{
+        background-color: red;
+        border-radius: 0;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: yellow;
+        top: 0;
+        left: 400px;
+    }
+    50%{
+        background-color: green;
+        border-radius: 50%;
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        background-color: blue;
+        top: 400px;
+        left: 0;
+    }
+}

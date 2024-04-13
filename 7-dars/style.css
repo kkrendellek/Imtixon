@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+}
+.box1{
+    background-color: red;
+    padding: 20px;
+    /* position:static;
+    position: relative;
+    left: 30px;
+    top: 30px; */
+    /* position: absolute;
+    left: 50px;
+    top: -20px; */
+    /* position: fixed;
+    bottom: 20px;
+    right: 20px; */
+    position: sticky;
+    top: 0;
+}
+.box2{
+    background-color: rgb(102, 255, 26);
+    padding: 20px;
+}
+.box3{
+    background-color: rgb(2, 213, 255);
+    padding: 20px;
+}

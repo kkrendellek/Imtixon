@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 729px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://sportishka.com/uploads/posts/2023-11/1701191992_sportishka-com-p-bmv-nemetskaya-mashina-krasivo-28.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

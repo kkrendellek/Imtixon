@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    position: relative;
+    transition: 0.5 all;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: blue;
+    /* transform: rotate(180deg);
+    transform: scale(0.8);
+    transform: skew(-20deg); */
+    transform: translate(50px,50px);
+}

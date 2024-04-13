@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 24px 0;
+}
+.container{
+    padding: 0 112px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    max-width: 81px;
+}
+.logo_img img{
+    width: 100%;
+}
+.nav{
+    margin-left: 50px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #101010;
+    font-weight: 500;
+}
+.btn a{
+    text-decoration: none;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #101010;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 1px solid #000;
+}
+.btn a:hover{
+    color: #101010;
+    background-color: #fff;
+}
+.list{
+    width: 700px;
+    padding: 50px 74px 110px 112px;
+}
+.list h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #101010;
+}
+.list p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636f87;
+}
+.list button{
+    margin-top: 40px;
+    padding: 20px 40px;
+    background: #1aab7b;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s;
+    margin-top: 40px;
+}
+.list button:hover{
+    background: #fff;
+    color: #1aab7b;
+    cursor: pointer;
+}
+.list_vidio{
+    padding: 92px 112px 209px 74px;
+    border-radius: 6px;
+    border: none;
+}
+.boxes{
+    background: #F2F4F6;
+    padding: 50px 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 40px;
+}
+.h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #101010;
+}
+.card{
+    width: 353px;
+    height: 358px;
+    border: 2px solid #E1E7ED;
+    padding: 40px 30px;
+    border-radius: 6px;
+    background: #F2F4F6;
+    margin-left: 112px;
+    transition: 0.3s;
+}
+.card:hover{
+    background: #1AAB7B;
+    cursor: pointer;
+}
+.card:hover h3{
+    color: #fff;
+}
+.card:hover p{
+    color: #fff;
+}
+.card:hover a{
+    color: #fff;
+    text-decoration: underline;
+}
+.minicard{
+    display: flex;
+    justify-content: space-between;
+}
+.minicard h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #101010;
+}
+.card img{
+    max-width: 30px;
+}
+.card p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #636F87;
+    margin-top: 20px;
+}
+.card a{
+    display: inline-block;
+     margin-top: 23px;
+     font-size: 20px;
+     font-weight: 700;
+     text-decoration: none;
+     color: #000;
+}
+.title h2{
+    padding-top: 111px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #101010;
+    text-align: center;
+}
+.title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #636F87;
+    text-align: center;
+    margin-top: 16px;
+}
+.reg{
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./image\ 1.png');
+    padding: 60px 112px 51px 112px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.data{
+    width: 565px;
+    height: 434px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 34px 72px;
+    text-align: center;
+}
+.data input{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    margin-bottom: 52px;
+    background: transparent;
+    border-bottom: 3px solid #fffdfd;
+    padding-bottom: 21px;
+    color: #fff;
+}
+.data input::placeholder{
+    color: #fff;
+}
+.data button{
+    padding: 20px 88px;
+    background: #1AAB7B;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer{
+    margin-top: 51px;
+    background-color: #000;
+    padding: 96px 0;
+}
+.footer_img{
+    max-width: 81px;
+}
+.footer_img img{
+    width: 100%;
+}
+.footer_logo a, .footer_center a{
+    margin-top: 31px;
+    display: inline-block;
+    color: #a1a8b7;
+    text-decoration: none;
+}
+.footer_center h3, .footer_end h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer_icons{
+    margin-top: 31px;
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+
